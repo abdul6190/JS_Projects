@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin: 2rem 0;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 40rem;
+  /* height: 600px; */
+  background-color: white;
+  border-radius: 8px;
+  /* box-shadow: 10px 12px 15px -3px rgba(0, 0, 0, 0.1); */
+  box-shadow: 10px 10px 16px 0px rgba(44, 44, 44, 0.5);
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 500;
+  color: #4e4e4e;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.chances {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4e4e4e;
+  margin: 1rem 0;
+}
+
+.input-container {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 4rem;
+  padding: 1rem 0.5rem;
+  /* width: 700px; */
+}
+
+input {
+  border: 2px solid #fc466b;
+  outline: none;
+  color: #4e4e4e;
+  padding: 0.6rem 1rem;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  text-align: center;
+  flex: 1;
+}
+
+.guess {
+  border: none;
+  outline: none;
+  background-color: #fc466b;
+  color: white;
+  padding: 0.6rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0 2rem;
+}
+
+.message {
+  text-align: center;
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(228, 43, 43);
+}
+
+.play-again {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.again {
+  margin-bottom: 2rem;
+  background-color: #5d76f0;
+}
